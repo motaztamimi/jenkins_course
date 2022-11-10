@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Check Requirements'){
             steps{
-                sh'sudo apk update; sudo apk install python3 python3-pip'
+                sh'apk install python3 python3-pip'
                 sh'pip3 install flask pylint'
             }
         }
