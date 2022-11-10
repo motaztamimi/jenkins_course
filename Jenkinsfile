@@ -26,7 +26,7 @@ pipeline{
 
     }
     post{
-        steps{
+        always{
             
         echo 'We have reached the post stage'
         }
