@@ -26,6 +26,9 @@ pipeline{
 
     }
     post{
+        steps{
+            
         echo 'We have reached the post stage'
-    }
+        }
+        }
 }
